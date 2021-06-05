@@ -19,7 +19,7 @@ int main(){
         }
       }
     }
-      vec.erase(std::remove(vec.begin(), vec.end(), -1), vec.end());
+    vec.erase(std::remove(vec.begin(), vec.end(), -1), vec.end());
     if(value == -1){
       for(int i = 0; i < vec.size(); i++){
         std::cout << vec[i] << " ";
